@@ -9,7 +9,7 @@ Etapes à suivre :
         Créer au moins trois implémentations différentes de la classe Animal en se basant sur la classe abstraite AbstractAnimal. 
         Veillez à définir les objets via leur constructeur par défaut en utilisant le constructeur parent et que ces objets soient managés par Spring
     - Implémenter la classe ZooService de manière à ce que l'implémentation soit un service Spring avec l'injection d'une liste des classes Animal précément définis
-    - Réalisez l'implémentation de toute les méthodes de la manière la plus performante possible
+    - Réalisez l'implémentation de toute les méthodes de la manière la plus performante possible (API Java 8)
     - Créer un controller REST 'ZooWebServiceController' définissant l'API cliente pour accéder au ZooService. Testez votre API via le navigateur web
 3. Exceptions & tests unitaires
     - Assurez-vous que la méthode 'retrieveAnimal' du ZooService renvoie une 'UnknownAnimalException' en cas d'échec. 
